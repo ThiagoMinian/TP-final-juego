@@ -9,11 +9,11 @@ public class PlayerCollision : MonoBehaviour
     {
         if (collision.gameObject.name == "Enemigo")
         {
-            transform.position = new Vector3(10, 5, -22);
+            transform.position = new Vector3(10, 0.4f, -22);
         }
         if (collision.gameObject.name == "Salida")
         {
             SceneManager.LoadScene("Ganaste");
-        }
+        } 
     }
 }
