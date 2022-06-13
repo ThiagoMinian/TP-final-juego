@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemigoMovement : MonoBehaviour
 {
     GameObject mygameobject;
-    float rotar = 2.5f;
+    float rotar = 2;
     Vector3 myvector3;
     // Start is called before the first frame update
     void Start()

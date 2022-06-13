@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class CarMovement : MonoBehaviour
 {
-    float movementSpeed = 0.2f;
-    float rotationSpeed = 4;
+    float movementSpeed = 0.09f;
+    float rotationSpeed = 3;
     public float jumpForce = 1;
     public int maxJumps = 1;
     float Tiempo = 0;

@@ -7,13 +7,14 @@ public class AudioManager : MonoBehaviour
     AudioSource source;
     public AudioClip musiquita;
     public AudioClip sonido;
-
+    AudioSource sonido1;
     bool isPlaying;
 
     // Start is called before the first frame update
     void Start()
     {
         source = GetComponent<AudioSource>();
+        sonido1 = GetComponent<AudioSource>();
         isPlaying = true;
     }
 
@@ -29,10 +30,11 @@ public class AudioManager : MonoBehaviour
             source.clip = sonido;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             if (isPlaying)
             {
+                source.clip = sonido;
                 source.Play();
             }
             else
