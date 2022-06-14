@@ -14,10 +14,12 @@ public class PlayerCollision : MonoBehaviour
         if (collision.gameObject.name == "Enemigo")
         {
             transform.position = new Vector3(10, 0.4f, -22);
+            SceneManager.LoadScene("Perdiste");
         }
         if (collision.gameObject.name == "Wall")
         {
             transform.position = new Vector3(10, 0.4f, -22);
+            SceneManager.LoadScene("Perdiste");
         }
         if (collision.gameObject.name == "Salida")
         {
