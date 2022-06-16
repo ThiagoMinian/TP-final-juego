@@ -239,12 +239,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 349960445}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2de2605e73358474298503ea31e7b4e2, type: 3}
+  m_Script: {fileID: 11500000, guid: e4b619c7d6ea50f4fb3b8be063eac229, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubePrefab: {fileID: 8701912430185471670, guid: e7952dc73be61d24bac641505ed8498a,
     type: 3}
-  cantidaddeIns: 4
+  clone: {fileID: 8701912430185471670, guid: e7952dc73be61d24bac641505ed8498a, type: 3}
+  i: 6
 --- !u!4 &349960447
 Transform:
   m_ObjectHideFlags: 0
