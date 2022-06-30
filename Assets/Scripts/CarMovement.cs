@@ -33,11 +33,11 @@ public class CarMovement : MonoBehaviour
 
             if (Input.GetKey(KeyCode.UpArrow))
             {
-                transform.Translate(0, 0, movementSpeed);
+                transform.Translate(0, 0, -movementSpeed);
             }
             if (Input.GetKey(KeyCode.DownArrow))
             {
-                transform.Translate(0, 0, -movementSpeed);
+                transform.Translate(0, 0, movementSpeed);
             }
             if (Input.GetKey(KeyCode.RightArrow) && hasJump == maxJumps)
             {
